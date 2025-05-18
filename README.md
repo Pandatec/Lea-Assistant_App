@@ -1,6 +1,6 @@
 # Lea App
 
-[![Build](https://github.com/Lea-Voc/Lea-App/actions/workflows/build.yml/badge.svg)](https://github.com/Lea-Voc/Lea-App/actions/workflows/build.yml)
+<!-- [![Build](https://github.com/Lea-Voc/Lea-App/actions/workflows/build.yml/badge.svg)](https://github.com/Lea-Voc/Lea-App/actions/workflows/build.yml) -->
 
 Lea phone application for the family and/or medical staff made in Flutter
 
