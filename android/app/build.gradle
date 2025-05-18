@@ -1,0 +1,72 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+android {
+    compileSdkVersion 33
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        def tagVersionName = System.getenv('GITHUB_REF')
+
+        if (tagVersionName == null || tagVersionName == '' || tagVersionName.startsWith('refs/heads/'))
+            tagVersionName = '0.0.1'
+        else
+            tagVersionName = tagVersionName.replace('refs/tags/v', '').replace('r', '')
+
+        println('Version name: ' + tagVersionName)
+
+        def numbers = tagVersionName.split('\\.')
+        def tagVersionCode = Integer.parseInt(numbers[0]) * 1000000 + Integer.parseInt(numbers[1]) * 1000 + Integer.parseInt(numbers[2])
+
+        println('Version code: ' + tagVersionCode)
+
+        applicationId "fr.leassistant.lea_connect"
+        minSdkVersion 18
+        targetSdkVersion 33
+        versionName tagVersionName
+        versionCode tagVersionCode
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            zipAlignEnabled true 
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
