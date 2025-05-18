@@ -1,0 +1,215 @@
+locale: fr
+homePatient:
+  change: Changer d'usager
+  edit: Éditer l'usager
+  selectedTooltip: "Usager séléctioné sur votre compte\nVous pouvez acceder aux différents outils via le menu \\\"Dashboard\\\""
+homeNoPatient:
+  addPatientPrompt: Vous n'avez aucun usager de lié. Cliquez sur le bouton '+' pour en associer un boîtier
+home:
+  status_label: Statut de l'usager
+  battery: Batterie à
+  battery_err: Batterie non-disponible
+  message:
+    label: Envoyer un message
+    desc: Envoyez un message à l'usager, il sera lu en votre nom
+  events:
+    label: Prochains événements
+    desc: Les événements se produisant dans les 7 prochains jours.
+    empty: Pas d'événement prévu.
+account:
+  email: E-mail
+  password: Mot de passe
+signin:
+  connect: Connecter
+  stayConnected: Rester connecté
+  forgotPassword: Mot de passe oublié ?
+  title: Connectez-vous avec votre e-mail
+  newMember: "Nouveau membre ? "
+  createAccount: Créez un compte
+signup:
+  createAccount: Créez un compte
+  alreadyMember: "Déjà membre ? "
+  connect: Connectez-vous
+  confirmPassword: Confirmation mot-de-passe
+  tooltipEmail: Entrez une adresse e-mail valide avec laquelle vous vous identifirez
+  tooltipPassword: Entrez un mot-de-passe fort
+  submit: Valider e-mail et mot-de-passe
+  phone: Téléphone
+  submit2: Créer mon compte
+forgotPw:
+  title: Réinitialiser votre mot de passe
+  submit: Envoyer les instructions pour réinitialiser
+  mail_resent: Instructions envoyées avec succès !
+  accountBack: "Repris votre compte en main ? "
+welcome:
+  newUser: Inscription
+  alreadyHaveAccount: J'ai déjà un compte
+  implicitAgreement: "En continuant, vous acceptez les\ntermes, conditions et politique de confidentialité"
+nav:
+  editProfile: Éditer votre profil
+  logoutWarning: Êtes-vous sûr(e) de vouloir vous déconnecter ?
+  settings: Paramètres
+  home: Accueil
+  profile: Profil
+  dashboard: Dashboard
+  location: Géoloc
+  calendar: Calendrier
+  patient: Usager
+patientDashboard:
+  timeframe:
+    t1d: 1J
+    t2d: 2J
+    t4d: 4J
+    t1w: 1S
+    t2w: 2S
+    t1m: 1M
+    t3m: 3M
+    t6m: 6M
+    t1y: 1A
+  usageChart:
+    title: Taux d'utilisation
+    desc: Nombre d'utilisations au cours des trois dernières semaines
+    xLabel: Semaine
+    yLabel: Nombre d'utilisations
+  typeUsageChart:
+    title: Capacités
+    desc: Nombre d'utilisations par fonctionnalité
+  usageSuccess:
+    title: Succès d'utilisation
+    desc: Nombre d'utilisations avec succès
+    success: Compris
+    failure: Pas compris
+  zoneRate:
+    title: Minutes par zone
+    desc: Temps passé dans chaque zone
+    unclassified: Zone inconnue
+  zonePos:
+    title: Chercher la position dans le temps
+    desc: Où l'usager se trouvait
+    offline: Hors-ligne
+patientList:
+  title: Liste des usagers
+  optionDelete: Supprimer
+  optionEdit: Éditer
+  optionSave: Se souvenir de mon choix
+patientForm:
+  editProfile: Éditez le profil de l'usager
+  id: Identifiant
+  validate: Valider les changements
+patientPair:
+  failed: Appairage échoué
+  inputCode: Entrez le code d'appairage
+  submit: Appairer
+  code: Code à 6 chiffres
+profile:
+  support: Assistance
+  contactSupport: Contacter l'assistance
+  switchPatientWarning: Changer l'usager observé ?
+  deleteAccount: Supprimer le compte
+  confirmDeleteAccount: Ceci va supprimer de manière irréversible toutes les données que vous avez entré dans le service. Cela inclut les usagers actuellement appairés à ce compte.
+settings:
+  language: Langage
+  lang:
+    sys_default: Langue du système
+    overriden: Langue préférée
+    # DO NOT REMOVE THIS BLANK
+    # DO NOT REMOVE THIS BLANK
+  notifications: Notifications
+  dnd: Ne pas déranger
+  theme: Thème
+  them:
+    sys_default: Thème du système
+    overriden: Thème préféré
+    dark: Thème sombre
+    light: Thème clair
+  events: Événements
+  safe_zone_tracking: Sortie de zone sécurisée
+  offline_patient: Usager hors-ligne
+  new_login: Nouvelle connexion
+  setting_modified: Paramètre modifié
+validator:
+  textNeeded: Texte nécessaire
+  invalidFormat: Format invalide
+  passwordMismatch: Mots de passe différents
+  invalidChars: Caractères invalides
+calendarForm:
+  createEvent: Créer un nouvel évenement
+  updateEvent: Modifier un évenement
+  title: Titre
+  desc: Description
+  date: Horaire
+  validateCreate: Ajouter l'évenement
+  validateUpdate: Confirmer
+  validateDelete: Supprimer
+  confirmDelete: Vous êtes sur le point de supprimer cet événement.
+"yes": Oui
+"no": Non
+are_you_sure: Êtes-vous sûr(e) ?
+years: ans
+full_years: ans
+name: Prénom
+surname: Nom
+birthday: Anniversaire
+empty: Vide
+disabled: Désactivé
+enabled: Activé
+logout: Déconnexion
+dateFormat: "dd-MM-yyyy"
+location:
+  loading: Chargement de la carte..
+  waiting_patient: En attente de l'usager
+  zone:
+    name: Nom de la zone
+    isSafe: Sécurisé ?
+    color:
+      name: Couleur
+      pick: Sélectionnez une couleur
+    delete: Supprimer
+    created: Nouvelle zone
+  diag:
+    location_disconnected: L'usager est hors-ligne
+    location_disabled: L'usager a désactivé la géolocalisation
+    location_unavailable: La géolocalisation n'est pas disponible sur l'appareil de l'usager
+settings_label: Paramètres
+favorite: Usager par défaut
+online: Connecté
+offline: Déconnecté
+now_offline:
+  title: Vous êtes hors-ligne !
+  msg: Tentative de reconnexion..
+  button: Réessayer
+patient:
+  title_create: Création usager virtuel
+  create: Un usager virtuel va être créé, vous permettant d'explorer l'application
+  delete: Votre usager virtuel va être supprimé définitivement
+messenger:
+  hint: Votre message ici..
+date:
+  hour: Heure
+  minute: Minute
+  week: Semaine
+  month: Mois
+outdated:
+  title: Bonne nouvelle !
+  msg: Une nouvelle version de Léa Connect est disponible !
+  update: Mettre à jour
+  platform:
+    android: Utilisez l'application Play Store pour mettre à jour Léa Connect.
+    ios: Utilisez l'App Store pour mettre à jour Léa Connect.
+unverified:
+  title: Votre adresse e-mail n'est pas encore validée
+  msg_begin: Consultez votre boîte de réception à
+  msg_end: et suivez les instructions pour valider votre compte.
+  no_mail: Vous n'avez pas reçu d'e-mail ?
+  rensend_mail: Renvoyer les instructions
+  mail_resent: Un nouvel e-mail avec les instructions a été envoyé.
+helper:
+  title: Aide
+  confirmbtn: Suivant
+  patient_txt: Vous trouverez ici, la liste des usagers que vous avez sur votre application.\n\nSi vous cliquez sur 'Se souvenir de mon choix', l'application chargera le profil de votre utilisateur favoris au démarage.
+  connect_text: Pour ajouter un usager, cliquer sur le bouton '+'.\n\nVous devrez ensuite choisir si il est virtuel avec l'icône robot ou si il est réel avec l'icône clavier.\n\nPour ajouter un usager réel, il vous faudra par la suite entrer le code d'appairage donné.
+  home_img: assets/help/fr/home.png
+  calendar_img: assets/help/fr/calendar.png
+  location_img: assets/help/fr/location.png
+  patient_img: assets/help/fr/patient.png
+  profile_img: assets/help/fr/profile.png

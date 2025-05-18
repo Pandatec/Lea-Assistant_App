@@ -1,0 +1,215 @@
+locale: en
+homePatient:
+  change: Change enjoyer
+  edit: Edit enjoyer
+  selectedTooltip: "Selected enjoyer\nYou can access tools using the \\\"Dashboard\\\" menu"
+homeNoPatient:
+  addPatientPrompt: No connected enjoyer. Click on the '+' button to add a device.
+home:
+  status_label: Enjoyer status
+  battery: Battery at
+  battery_err: Unknown battery level
+  message:
+    label: Send a message
+    desc: Send a message to your enjoyer, it will be played in your name
+  events:
+    label: Next Events
+    desc: Events in the next 7 days.
+    empty: No event planned.
+account:
+  email: Email
+  password: Password
+signin:
+  connect: Connect
+  stayConnected: Stay connected
+  forgotPassword: Forgot your password?
+  title: Connect using your email
+  newMember: "New member? "
+  createAccount: Create an account
+signup:
+  createAccount: Sign-up
+  alreadyMember: "Already have an account? "
+  connect: Login here
+  confirmPassword: Confirm password
+  tooltipEmail: Enter an email address you'll use to identify yourself
+  tooltipPassword: Enter a strong password
+  submit: Confirm email & password
+  phone: Phone number
+  submit2: Create my account
+forgotPw:
+  title: Reset your password
+  submit: Send instructions to reset
+  mail_resent: Instructions successfully sent!
+  accountBack: "Got your account back? "
+welcome:
+  newUser: I'm a new user
+  alreadyHaveAccount: I already have an account
+  implicitAgreement: "By continuing, you agree to\nour terms & conditions and privacy policy"
+nav:
+  editProfile: Edit profile
+  logoutWarning: Are you sure you want to logout?
+  settings: Settings
+  home: Home
+  profile: Profile
+  dashboard: Dashboard
+  location: Location
+  calendar: Calendar
+  patient: Enjoyer
+patientDashboard:
+  timeframe:
+    t1d: 1D
+    t2d: 2D
+    t4d: 4D
+    t1w: 1W
+    t2w: 2W
+    t1m: 1M
+    t3m: 3M
+    t6m: 6M
+    t1y: 1Y
+  usageChart:
+    title: Usage frequency
+    desc: Usage count per day during the last three weeks
+    xLabel: Day
+    yLabel: Usage count
+  typeUsageChart:
+    title: Features
+    desc: Usage count per feature
+  usageSuccess:
+    title: Usage success
+    desc: Number of understood usages
+    success: Understood
+    failure: Unintelligible
+  zoneRate:
+    title: Minutes per zone
+    desc: Time spent on each zone
+    unclassified: Unknown zone
+  zonePos:
+    title: Lookup position in time
+    desc: Where the enjoy was located
+    offline: Offline
+patientList:
+  title: Enjoyer list
+  optionDelete: Delete
+  optionEdit: Edit
+  optionSave: Remember this choice
+patientForm:
+  editProfile: Edit enjoyer profile
+  id: Username
+  validate: Save changes
+patientPair:
+  failed: Pairing failed
+  inputCode: Enter pairing code
+  submit: Pair
+  code: 6-digit code
+profile:
+  support: Support
+  contactSupport: Contact support
+  switchPatientWarning: Change the enjoyer being monitored?
+  deleteAccount: Delete account
+  confirmDeleteAccount: This will delete forever all data you entered on the service, including enjoyers currently paired.
+settings:
+  language: Language
+  lang:
+    sys_default: System language
+    overriden: Preferred language
+    fr: Français
+    en: English
+  notifications: Notifications
+  dnd: Do not disturb
+  theme: Theme
+  them:
+    sys_default: System theme
+    overriden: Preferred theme
+    dark: Dark theme
+    light: Light theme
+  events: Events
+  safe_zone_tracking: Safe zone tracking
+  offline_patient: Offline enjoyer
+  new_login: New login
+  setting_modified: Setting modified
+validator:
+  textNeeded: Text needed
+  invalidFormat: Invalid format
+  passwordMismatch: Password mismatch
+  invalidChars: Invalid characters
+calendarForm:
+  createEvent: Create a new event
+  updateEvent: Edit an event
+  title: Title
+  desc: Description
+  date: Schedule
+  validateCreate: Add event
+  validateUpdate: Confirm
+  validateDelete: Delete
+  confirmDelete: You are about to delete this event.
+"yes": "Yes"
+"no": "No"
+are_you_sure: Are you sure?
+years: yo
+full_years: years old
+name: Name
+surname: Surname
+birthday: Birthday
+empty: Empty
+disabled: Disabled
+enabled: Enabled
+logout: Logout
+dateFormat: "MM-dd-yyyy"
+location:
+  loading: Loading map..
+  waiting_patient: Waiting for enjoyer
+  zone:
+    name: Zone name
+    isSafe: Safe?
+    color:
+      name: Color
+      pick: Pick a color
+    delete: Delete
+    created: New zone
+  diag:
+    location_disconnected: Enjoyer is offline
+    location_disabled: Enjoyer did not enable location
+    location_unavailable: Location is not available on enjoyer device
+settings_label: Settings
+favorite: Default enjoyer
+online: Online
+offline: Offline
+now_offline:
+  title: You are offline!
+  msg: Now reconnecting..
+  button: Retry
+patient:
+  title_create: Virtual enjoyer creation
+  create: A virtual enjoyer will be created, for you to explore the app
+  delete: Your virtual enjoyer will be deleted
+messenger:
+  hint: You message here..
+date:
+  hour: Hour
+  minute: Minute
+  week: Week
+  month: Month
+outdated:
+  title: Great news!
+  msg: A new version of Léa Connect is available!
+  update: Update
+  platform:
+    android: Use the Play Store app to update Léa Connect.
+    ios: Use the App Store to update Léa Connect.
+unverified:
+  title: Your email address is not verified yet
+  msg_begin: Check your inbox at
+  msg_end: and follow the instructions to verify your account.
+  no_mail: Didn't receive a mail?
+  rensend_mail: Resend instructions
+  mail_resent: A new mail with instructions has been sent.
+helper:
+  title: Help
+  confirmbtn: Next
+  patient_txt: You can see here, the list of the user you follow.\n\nIf you click on 'Remenber this choice', the app will automatically connect at the beginning to your favorite user.
+  connect_txt: To add a user, you have to click on the '+'.\n\nThen you have to choose if you want a virtual with the robot icon or real user with the keypad icon.\n\nThen to have a real user, you have to enter the pairing code given.
+  home_img: assets/help/en/home.png
+  calendar_img: assets/help/en/calendar.png
+  location_img: assets/help/en/location.png
+  patient_img: assets/help/en/patient.png
+  profile_img: assets/help/en/profile.png
